@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background: rgb(170, 127, 127);
+}
+
+h1{
+    background: rgb(211, 5, 5);
+    color: black;
+    padding: 16px;
+    text-align: center;
+}
+
+.container{
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+}
+
+.weather-input{
+    width: 500px;
+}
+.weather-input input{
+    height: 40px;
+    width: 100%;
+    outline: none;
+    margin: 10px 0 10px 0;
+    padding: 0 10px;
+    border-radius: 10px;
+    border: 10px salmon
+}
+
+.weather-data{
+    width: 100%;
+}
+
+.weather-input button{
+    background: rgb(239, 77, 77);
+    color: whitesmoke;
+    width: 50%;
+}
